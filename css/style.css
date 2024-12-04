@@ -1,3 +1,9 @@
+#root{
+    --color-botton:#0061FE;
+}
+
+
+
 header{
    
     border: 3px solid green;
@@ -6,7 +12,9 @@ header{
 }
 .flex{
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+
+   /* align-items: center;*/
     padding: 25px;
 }
 .logo{
@@ -18,17 +26,53 @@ header{
 }
 .menu1 a{
     color: black;
+    
 }
 
-.menu2{
-    justify-content: flex-end;
-    padding-left: 900px;
-}
+
 
 .menu2 ul{
     display: flex;
     column-gap: 30px;
+   
 }
 .menu2 a{
     color: black;
+    
+}
+
+.botton-header1{
+    /*height: 20px;
+    width: 40px;*/
+    padding: 5px;
+    background-color: #FFFFFF;
+    
+   
+
+}
+.botton-header2{
+    /*height: 20px;
+    width: 40px;*/
+    padding: 5px;
+    background-color: #0061FE;
+    color: white;
+    
+}
+.button-flex{
+    display: flex;
+}
+
+.container-light{
+    display: flex;
+    flex-direction: column;
+    background-color: #B4D0E6;
+    height: 400px;
+    width: 100%;
+}
+
+.big-text{
+    line-height: 2em;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
 }
