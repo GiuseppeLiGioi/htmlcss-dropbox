@@ -1,0 +1,34 @@
+header{
+   
+    border: 3px solid green;
+    width: 100%;
+    /*height: 100px;*/
+}
+.flex{
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+.logo{
+    margin-right: 30px;
+}
+.menu1 ul{
+    display: flex;
+    column-gap: 30px;
+}
+.menu1 a{
+    color: black;
+}
+
+.menu2{
+    justify-content: flex-end;
+    padding-left: 900px;
+}
+
+.menu2 ul{
+    display: flex;
+    column-gap: 30px;
+}
+.menu2 a{
+    color: black;
+}
