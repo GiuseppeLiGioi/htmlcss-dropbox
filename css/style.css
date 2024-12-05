@@ -1,206 +1,60 @@
-#root{
-    --color-botton:#0061FE;
+:root{
+    --color-button:#0061FE;
+    --color-jumbo:#B4D0E6;
 }
-
-
 
 header{
-   
-    border: 3px solid green;
-    width: 100%;
-    /*height: 100px;*/
+    padding: 15px;
 }
-.flex{
+
+header nav{
     display: flex;
     justify-content: space-between;
-
-   /* align-items: center;*/
-    padding: 25px;
-}
-.logo{
-    margin-right: 30px;
-}
-.menu1 ul{
-    display: flex;
-    column-gap: 30px;
-}
-.menu1 a{
-    color: black;
-    
-}
-
-
-
-.menu2 ul{
-    display: flex;
-    column-gap: 30px;
-   
-}
-.menu2 a{
-    color: black;
-    
-}
-
-.botton-header1{
-    /*height: 20px;
-    width: 40px;*/
-    padding: 5px;
-    background-color: #FFFFFF;
-    
-   
-
-}
-.botton-header2{
-    /*height: 20px;
-    width: 40px;*/
-    padding: 5px;
-    background-color: #0061FE;
-    color: white;
-    
-}
-.button-flex{
-    display: flex;
-}
-
-.container-light{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    background-color: #B4D0E6;
-    /*height: 600px;*/
-    width: 100%;
-    border: 3px solid orange;
-   
-    
-}
-.cont-mini-flex{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-left: 25%;
-    margin-top: 20px;
-    
-}
-
-.big-text{
-    line-height: 2em;
-    font-size: 50px;
-    text-align: center;
-    margin-top: 20px;
-}
-
-.botton-main{
-    margin-top: 10px;
-    width: 15%;
-    background-color: #0061FE;
-    color: white;
-    padding: 5px;
-
-
-}
-.p-mini{
-    margin-top: 10px;
-}
-
-.fa-solid {
-    
-    margin-top: 10px;
-    text-align: center;
-    padding: 10px;
-    font-size: 40px;
-}
-.container-img1{
-    
-    display: flex;
-    justify-content: center;
     align-items: center;
-   
-
-    position: relative;
-    
 }
-    
-
-.img1{
-
-   position: absolute;
-   bottom: -1;
-   height: 400px;
-   width: 700px;
-   padding-bottom: 12%;
-   
-    
+header nav > div{
+   display: flex;
+   gap: 15px;
+   align-items: center;
 }
-.h-text{
-    font-size: 20px;
-    margin-top: 10%;
-    text-align: center;
-}
-.container-circle{
+header nav > div ul li{
     display: flex;
-    /*height: 100px;*/
-    margin-top: 100px;
-    
-    justify-content: center;
-    align-items:center ;
-
+    gap: 20px;
 }
-
-.circle-blue{
-    margin-right: 10%;
-}
-.circle-blue .fa-solid{
-    font-size: 15px;
-    color: blue;
-    
-   
-}
-.span-main{
+header nav > div ul a{
     color: black;
-    padding: 10px;
 }
 
-.circle-white .fa-regular{
-    font-size: 15px;
-    
-    
-   
+.btn{
+padding: 5px 15px;
 }
-.circle-white{
-    margin-right: 50px;
-}
-.container-three-flex{
-    display: flex;
-    justify-content: center;
-    column-gap: 20px;
-    margin-top: 50px;
+.button-blue{
+    background-color:var(--color-button) ;
+    color: white;
 }
 
-.container-three-flex .fa-solid{
-    font-size: 15px;
+.jumbo{
+    background-color: var(--color-jumbo);
 }
-
-.box{
-    display: flex;
-    flex-direction: column;
-    height: 300px;
-    width: calc(50%/3);
+.container-90{
+    max-width: 90%;
     margin: 0 auto;
+}
+.jumbo--sez{
+    display: flex;
+    align-items: flex-start;
+}
+.jumbo-p{
+    flex-basis:30% ;
+}
+.jumbo-img{
+    flex-basis: 70%;
+}
+.jumbo-img img{
+    width: 100%;
+}
+.text-big{
+    font-size: 24px;
 
 }
-.title-box{
-    padding: 10%;
-}
-.p-box{
-    padding:3%;
-    margin-left: 10px;
-}
-.user{
-    text-align: start;
 
-}
-.folder{
-    margin-right: 100px;
-    height: 60px;
-
-}
