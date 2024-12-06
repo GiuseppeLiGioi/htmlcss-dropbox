@@ -1,6 +1,7 @@
 :root{
     --color-button:#0061FE;
     --color-jumbo:#B4D0E6;
+    --color-footer:#000000;
 }
 
 header{
@@ -210,3 +211,40 @@ padding: 5px 15px;
     margin-bottom: 15px;
    
 }
+.container-80 h2{
+    margin-top: 30px;
+}
+
+footer{
+    background-color:var(--color-footer);
+    margin-top: 4rem;
+    width: 100%;
+}
+footer h4, p{
+    color: white;
+}
+.flex_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 70%;
+    margin: 0 auto;
+    
+    
+}
+.foot_card{
+display: flex;
+flex-direction: column;
+flex-basis: calc(100% / 5 - 10px);
+}
+.foot_card h4{
+    margin-bottom: 15px;
+}
+/*.foot_card hr{
+    margin-top: 30px;
+    width: 30%;
+    color: white;
+    text-align: center;
+
+}*/
