@@ -193,19 +193,20 @@ padding: 5px 15px;
     max-width: 150px;
     text-align: center;
 }
-.dropbox_cards{
+.dropbox_cards_box{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     justify-content: space-between;
+    margin-top: 40px;
 }
 
-.dropbox_card{
-    flex-basis: calc(100% / 3 - 10px);
-    flex-grow: 1;
+.dropbox_card_single{
+    flex-basis: calc(100% / 4 - 10px);
     padding: 20px;
 }
-.dropbox_card img{
+.dropbox_card_single img{
     width: 100%;
+    margin-bottom: 15px;
    
 }
