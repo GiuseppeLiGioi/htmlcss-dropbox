@@ -220,7 +220,7 @@ footer{
     margin-top: 4rem;
     width: 100%;
 }
-footer h4, p{
+footer h4{
     color: white;
 }
 .flex_footer{
@@ -237,6 +237,7 @@ footer h4, p{
 display: flex;
 flex-direction: column;
 flex-basis: calc(100% / 5 - 10px);
+color: white;
 }
 .foot_card h4{
     margin-bottom: 15px;
