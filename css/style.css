@@ -188,6 +188,24 @@ padding: 5px 15px;
 
 .dropbox-p a{
     padding: 5px 15px;
-    /*border: 1px solid black;*/
+    border: 1px solid black;
     color: black;
+    max-width: 150px;
+    text-align: center;
+}
+.dropbox_cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.dropbox_card{
+    flex-basis: calc(100% / 3 - 10px);
+    flex-grow: 1;
+    padding: 20px;
+}
+.dropbox_card img{
+    width: 100%;
+   
 }
